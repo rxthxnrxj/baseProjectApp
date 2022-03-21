@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-transform: none !important;
+}
+main {
+  min-height: 88vh;
+}
+
+.highMarginTop {
+  margin-top: 10rem !important;
+}
+.midMarginTop {
+  margin-top: 6rem !important;
+}
+.highMarginBottom {
+  margin-bottom: 5rem !important;
+}
+
+.your-style {
+  font-family: "Maelstrom";
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Maelstrom";
+  src: url("./custom/Maelstrom-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.projName {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 300%;
+  letter-spacing: 1px !important;
+  color: #2444bc;
+}
+
+.subTitles {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 130%;
+  color: #2444bc;
+  letter-spacing: 1px !important;
+}
+.buttonCustom {
+  background-color: hsl(227, 68%, 44%, 0.5) !important;
+  color: white !important;
+  border-radius: 32px !important;
+  font-size: 80% !important;
+  margin: 0 0.5rem 0.5rem 0;
+  padding: 0 0.5rem !important;
+  font-weight: 100 !important;
+}
+
+.buttonAchievement {
+  background: #f09066 !important;
+  color: white !important;
+  border-radius: 32px !important;
+  font-size: 100% !important;
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+.card {
+  outline: none !important;
+  border: none !important;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-radius: 32px;
+}
+.card:hover {
+  border-radius: 32px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  transform: scale(1.01) !important;
+  color: hsla(226, 43%, 44%, 1);
+  transition: all 0.5s ease-in-out;
+}
+
+.cardTitle {
+  font-family: "Poppins";
+  font-weight: 400 !important;
+  font-style: normal;
+  font-size: 130% !important;
+  color: #2444bc !important;
+  letter-spacing: 1px !important;
+}
+
+.image {
+  border-radius: 32px;
+}
+
+.footerTag {
+  color: #2444bc;
+  text-decoration: none !important;
+}
+
+.cardCode {
+  font-size: 80% !important;
+}
+.cardCode:hover {
+  font-size: 80% !important;
+  background-color: #2444bc;
+  color: white !important;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.cardCodeText {
+  letter-spacing: 1px !important;
+  text-decoration: none !important;
+}
+
+.codeButton {
+  color: #2444bc !important;
+  background-color: white !important;
+  border-radius: 32px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  outline: none !important;
+}
+
+.codeButton:hover {
+  background-color: #2444bc !important;
+  color: white !important;
+  border-radius: 32px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  transition: all 0.3s ease-in-out;
+}
+.codeButton:focus {
+  background-color: #2444bc !important;
+  color: white !important;
+  border-radius: 32px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  transition: all 0.3s ease-in-out;
+  outline: none !important;
+  border: none !important;
+}
+.normalText {
+  color: #1c1c1c;
+  font-family: "Poppins";
+  font-weight: 400 !important;
+  font-style: normal;
+  font-size: 130% !important;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  font-size: 50px;
+  color: #2444bc;
+  cursor: pointer;
+  border-radius: 100px;
+  border: none;
+  z-index: 100;
+  outline: none !important;
+}
+.back-to-top:hover {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  font-size: 50px;
+  color: white;
+  background-color: #2444bc;
+  cursor: pointer;
+  border-radius: 100px;
+  z-index: 100;
+  transition: all 0.2s ease-in-out;
+  outline: none !important;
+}

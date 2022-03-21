@@ -1,0 +1,273 @@
+.navbar {
+  max-height: 60px;
+  outline: none;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.homeNav {
+  color: #4056a1 !important;
+}
+.baseSubHeading {
+  font-size: 80%;
+}
+.highMarginTop {
+  margin-top: 10rem;
+}
+.highMarginBottom {
+  margin-bottom: 10rem;
+}
+.highMarginRow {
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+}
+.fullRow {
+  margin: 0 !important;
+}
+.baseButton {
+  background-color: #4056a1 !important;
+  border-radius: 32px;
+  color: white !important;
+  outline: none !important;
+  border: 2px solid #4056a1;
+}
+.baseButton:hover {
+  background-color: white !important;
+  border-radius: 32px;
+  color: #4056a1 !important;
+  outline: none !important;
+  border: 2px solid #4056a1;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+.baseButton:focus {
+  background-color: #4056a1 !important;
+  border-radius: 32px;
+  color: white !important;
+  outline: none !important;
+  border: 2px solid #4056a1;
+}
+
+.secondaryButton {
+  background-color: white !important;
+  border-radius: 32px;
+  color: #4056a1 !important;
+  outline: none !important;
+  border: 2px solid #4056a1;
+}
+.secondaryButton:hover {
+  background-color: #4056a1 !important;
+  border-radius: 32px;
+  color: white !important;
+  outline: none !important;
+  border: 2px solid #4056a1;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+.secondaryButton:focus {
+  background-color: #4056a1 !important;
+  border-radius: 32px;
+  color: white !important;
+  outline: none !important;
+  border: 2px solid #4056a1;
+}
+.baseCard {
+  border-radius: 32px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border: none !important;
+}
+.crazyNumbers {
+  font-family: "Maelstrom";
+  font-size: 10rem;
+  font-weight: bold;
+  font-style: normal;
+}
+.baseCard:hover {
+  border-radius: 32px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  transform: scale(1.05) !important;
+  color: hsla(226, 43%, 44%, 1);
+
+  color: linear-gradient(
+    45deg,
+    hsla(226, 43%, 44%, 1) 0%,
+    hsla(193, 53%, 57%, 1) 100%
+  );
+
+  color: -moz-linear-gradient(
+    45deg,
+    hsla(226, 43%, 44%, 1) 0%,
+    hsla(193, 53%, 57%, 1) 100%
+  );
+
+  color: -webkit-linear-gradient(
+    45deg,
+    hsla(226, 43%, 44%, 1) 0%,
+    hsla(193, 53%, 57%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4056A1", endColorstr="#58B3CC", GradientType=1 );
+  transition: all 0.5s ease-in-out;
+  outline: none;
+  border: none;
+}
+
+.baseCardTitle {
+  letter-spacing: 2px !important;
+  font-weight: 600;
+  color: #4056a1;
+}
+.baseCardText {
+  letter-spacing: 1px !important;
+  font-weight: 200;
+  font-size: 80%;
+  color: grey;
+}
+.navbarLogo {
+  max-height: 75px;
+}
+
+.navbarTitle {
+  font-size: 120%;
+}
+.navbarLinkuiux {
+  border-radius: 25px !important;
+}
+
+.navbarLinkuiux:hover {
+  border-radius: 25px !important;
+  background-color: #4056a1 !important;
+  color: white !important;
+  transition: all 0.4s ease-in-out;
+}
+
+.navbarLink:hover {
+  color: #4056a1 !important;
+  transition: all 0.3s ease-in-out !important;
+}
+.homeIntro {
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+}
+.backGrad {
+  background: hsla(226, 43%, 44%, 1);
+
+  background: linear-gradient(
+    225deg,
+    hsla(226, 43%, 44%, 1) 0%,
+    hsla(193, 53%, 57%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    225deg,
+    hsla(226, 43%, 44%, 1) 0%,
+    hsla(193, 53%, 57%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    225deg,
+    hsla(226, 43%, 44%, 1) 0%,
+    hsla(193, 53%, 57%, 1) 100%
+  );
+}
+.homeIntroSecondColumn {
+}
+.homeHello {
+  color: #4056a1;
+  font-size: 700%;
+  font-weight: 600;
+  padding-bottom: 0;
+  top: 0;
+}
+.beginningText {
+  background: hsla(226, 43%, 44%, 1);
+
+  background: linear-gradient(
+    45deg,
+    hsla(226, 43%, 44%, 1) 0%,
+    hsla(193, 53%, 57%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(226, 43%, 44%, 1) 0%,
+    hsla(193, 53%, 57%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(226, 43%, 44%, 1) 0%,
+    hsla(193, 53%, 57%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4056A1", endColorstr="#58B3CC", GradientType=1 );
+  color: white !important;
+  border-radius: 32px;
+}
+
+.gradText {
+  color: hsla(226, 43%, 44%, 1);
+
+  color: linear-gradient(
+    45deg,
+    hsla(226, 43%, 44%, 1) 0%,
+    hsla(193, 53%, 57%, 1) 100%
+  );
+
+  color: -moz-linear-gradient(
+    45deg,
+    hsla(226, 43%, 44%, 1) 0%,
+    hsla(193, 53%, 57%, 1) 100%
+  );
+
+  color: -webkit-linear-gradient(
+    45deg,
+    hsla(226, 43%, 44%, 1) 0%,
+    hsla(193, 53%, 57%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4056A1", endColorstr="#58B3CC", GradientType=1 );
+}
+
+.homeNavigate {
+  font-size: 250%;
+  font-weight: 600;
+}
+
+.projectsTitle {
+  font-size: 200%;
+  font-weight: 600;
+}
+.numberOf {
+  border-radius: 50%;
+  font-size: 300%;
+  font-weight: 600;
+}
+.numberOfType {
+}
+.quote {
+  padding-left: 0 !important;
+  font-size: 180%;
+  color: #4056a1;
+}
+.whiteText {
+  color: white;
+}
+.dullWhiteText {
+  color: rgb(219, 214, 214);
+}
+
+.socialLogo:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: #4056a1;
+}
+
+.smallText {
+  font-size: 60%;
+}
+
+.footer {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px -25px 20px -30px;
+}
